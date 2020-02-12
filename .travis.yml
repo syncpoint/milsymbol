@@ -3,3 +3,10 @@ node_js:
   - "10"
 script:
   - npm run build
+
+deploy:
+  - provider: npm
+    email: office@syncpoint.io
+    registry: npm.pkg.github.com
+    api_key:
+      secure: $SECRET_KEY
