@@ -3,6 +3,7 @@ node_js:
   - "10"
 script:
   - npm run build
+  - echo $SECRET_KEY
 
 deploy:
   - provider: npm
