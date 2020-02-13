@@ -5,7 +5,7 @@ script:
   - npm run build
 
 deploy:
-  - provider: npm
+    provider: npm
     email: office@syncpoint.io
     registry: npm.pkg.github.com
     api_key: $SECRET_KEY
