@@ -10,3 +10,5 @@ deploy:
     registry: npm.pkg.github.com
     api_key:
       secure: $SECRET_KEY
+    on:
+      all_branches: true
