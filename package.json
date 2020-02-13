@@ -1,5 +1,5 @@
 {
-  "name": "milsymbol",
+  "name": "@syncpoint/milsymbol",
   "version": "2.0.0",
   "description": "Milsymbol.js is a small library in pure javascript that creates symbols according to MIL-STD-2525 and APP6.",
   "main": "dist/milsymbol.js",
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/spatialillusions/milsymbol"
+    "url": "https://github.com/syncpoint/milsymbol"
   },
   "author": "Måns Beckman (http://www.spatialillusions.com)",
   "license": "MIT",
