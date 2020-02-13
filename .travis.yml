@@ -4,11 +4,10 @@ node_js:
 script:
   - npm run build
 
-deploy:
-  - provider: npm
+deploy: # dpeloy task
+    provider: npm
     email: office@syncpoint.io
     registry: npm.pkg.github.com
-    api_key:
-      secure: $SECRET_KEY
+    api_key: $SECRET_KEY
     on:
       all_branches: true
